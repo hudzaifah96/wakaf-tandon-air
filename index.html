@@ -706,7 +706,7 @@ async function shareFlyer(){
     const blob = await generateFlyerBlob();
     const fileName = "wakaf-tandon-air-progres.png";
     const file = new File([blob], fileName, { type: "image/png" });
-    const shareText = "Update wakaf Tandon Air: sudah terkumpul " + formatRupiah(currentCollected) +
+    const shareText = "Update wakaf Tandon Air: Jazakumullah Khairan Katsiran, sudah terkumpul " + formatRupiah(currentCollected) +
       " (" + currentPct.toFixed(1) + "%) dari target " + formatRupiah(TARGET) +
       ". Yuk ikut berwakaf 💧 #WakafTandonAir";
 
